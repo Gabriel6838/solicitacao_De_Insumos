@@ -1,3 +1,6 @@
+/* ===========================
+   Fonte e fundo
+=========================== */
 body {
   font-family: "Courier New", monospace;
   background: #fff;
@@ -14,6 +17,9 @@ h1 {
   text-align: center;
 }
 
+/* ===========================
+   Seleção de loja
+=========================== */
 .topo {
   display: flex;
   justify-content: center;
@@ -32,6 +38,9 @@ select {
   font-size: 14px;
 }
 
+/* ===========================
+   Menu de categorias
+=========================== */
 .menu {
   display: flex;
   flex-wrap: nowrap;
@@ -56,6 +65,9 @@ select {
   background: #444;
 }
 
+/* ===========================
+   Botões Gerar PDF / Reiniciar
+=========================== */
 .acoes-centro {
   display: flex;
   flex-wrap: nowrap;
@@ -80,6 +92,9 @@ select {
   background: #004999;
 }
 
+/* ===========================
+   Container da tabela
+=========================== */
 .tabela-container {
   max-width: 900px;
   margin: 0 auto 30px auto;
@@ -100,6 +115,9 @@ select {
   margin: 0;
 }
 
+/* ===========================
+   Tabela
+=========================== */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -117,6 +135,7 @@ th {
   font-weight: bold;
 }
 
+/* Inputs de quantidade */
 td input[type="number"] {
   width: 100%;
   height: 100%;
@@ -133,6 +152,7 @@ td input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+/* Botão salvar */
 .btn-salvar {
   display: block;
   margin: 15px auto 0 auto;
@@ -147,4 +167,76 @@ td input[type="number"]::-webkit-outer-spin-button {
 
 .btn-salvar:hover {
   background: #1e7e34;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+@media screen and (max-width: 1024px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu button {
+    flex: 1 1 calc(25% - 10px);
+  }
+
+  .acoes-centro {
+    flex-wrap: wrap;
+  }
+
+  .acoes-centro button {
+    flex: 1 1 calc(45% - 10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu button {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  input[type="number"] {
+    width: 50px;
+    font-size: 12px;
+  }
+
+  .acoes-centro {
+    flex-wrap: nowrap; /* dois botões lado a lado */
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .acoes-centro button {
+    flex: 1 1 auto;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu button {
+    flex: 1 1 48%;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .acoes-centro button {
+    flex: 1 1 48%;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  table, th, td {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  input[type="number"] {
+    width: 40px;
+    font-size: 11px;
+  }
+
+  .btn-salvar {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
 }
