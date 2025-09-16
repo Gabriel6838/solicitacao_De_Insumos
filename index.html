@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solicitação de Insumos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <h1>SOLICITAÇÃO DE INSUMOS</h1>
+
+  <!-- SELECT LOJA (OBRIGATÓRIO) -->
+  <div class="topo">
+    <label for="fornoSelect" class="label-loja">Escolha a loja (obrigatório):</label>
+    <select id="fornoSelect" aria-label="Selecionar forno">
+      <option value="" selected disabled>-- Selecione a loja --</option>
+      <option value="Forno Dom">FORNO DOM</option>
+      <option value="Forno Leste">FORNO LESTE</option>
+      <option value="Forno Sul">FORNO SUL</option>
+      <option value="Forno Dirceu">FORNO DIRCEU</option>
+    </select>
+  </div>
+
+  <!-- MENU PRINCIPAL -->
+  <div id="menu" class="menu" style="display:none;">
+    <button data-categoria="mercearia">Mercearia</button>
+    <button data-categoria="frios">Frios</button>
+    <button data-categoria="bebidas">Bebidas</button>
+    <button data-categoria="hortifruti">Hortifruti</button>
+    <button data-categoria="embalagem">Embalagem</button>
+    <button data-categoria="diversos">Diversos</button>
+    <button data-categoria="sobras">Sobras de Porcionados</button>
+  </div>
+
+  <!-- BOTÕES FIXOS -->
+  <div class="acoes-centro">
+    <button id="gerarPdfBtn" class="btn-pdf">📄 Gerar PDF</button>
+    <button id="reiniciarBtn" class="btn-reiniciar">🔄 Reiniciar</button>
+  </div>
+
+  <!-- ÁREA DAS TABELAS -->
+  <div id="tabelas" class="tabelas-area"></div>
+
+  <!-- jsPDF + AutoTable -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
