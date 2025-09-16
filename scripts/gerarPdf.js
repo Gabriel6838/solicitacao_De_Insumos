@@ -106,24 +106,26 @@ export function gerarPdf(lojaSelecionada) {
     const tabelaSobras = itensSobras.map(item => [
       item.descricao,
       item.qtd,
-      "",
+      "",        // ESTIMATIVA
+      "",        // QTD.
       item.unidade,
-      ""
+      ""         // CHECK
     ]);
 
     doc.autoTable({
       startY: yPosition,
-      head: [["DESCRIÇÃO", "QTD", "QTD.", "UNID", "CHECK"]],
+      head: [["DESCRIÇÃO", "QTD", "ESTIMATIVA", "QTD.", "UNID", "CHECK"]],
       body: tabelaSobras,
       styles: { font: "Consolas", fontSize: 10 },
       headStyles: { fillColor: [200, 200, 200], textColor: 0, halign: "center" },
       alternateRowStyles: { fillColor: [245, 245, 245] },
       columnStyles: {
-        0: { cellWidth: 70 },
-        1: { cellWidth: 25 },
-        2: { cellWidth: 25 },
-        3: { cellWidth: 30 },
-        4: { cellWidth: 20 }
+        0: { cellWidth: 60 },  // DESCRIÇÃO
+        1: { cellWidth: 20 },  // QTD
+        2: { cellWidth: 25 },  // ESTIMATIVA
+        3: { cellWidth: 20 },  // QTD.
+        4: { cellWidth: 25 },  // UNID
+        5: { cellWidth: 20 }   // CHECK
       },
       theme: "grid",
       margin: { left: margin, right: margin }
@@ -132,3 +134,4 @@ export function gerarPdf(lojaSelecionada) {
 
   doc.save(`Solicitacao_Insumos_${lojaSelecionada}_${new Date().getTime()}.pdf`);
 }
+
