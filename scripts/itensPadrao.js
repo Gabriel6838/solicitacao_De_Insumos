@@ -27,6 +27,7 @@ mercearia: [
     { descricao: "LEITE CONDENSADO 395G", unidade: "UND" },
     { descricao: "LEITE LIQUIDO 1L", unidade: "UND" },
     { descricao: "MARGARINA", unidade: "BLD" },
+    { descricao: "MM's", unidade: "PCT" },
     { descricao: "MILHO VERDE", unidade: "UND" },
     { descricao: "MOLHO BARBECUE", unidade: "UND" },
     { descricao: "MOLHO P/ PIZZA", unidade: "CX" },
@@ -157,3 +158,4 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
