@@ -55,6 +55,7 @@ mercearia: [
     { descricao: "CREAM CHEESE", unidade: "CX" },
     { descricao: "FRANGO INTEIRO", unidade: "UND" },
     { descricao: "LOMBO CANADENSE", unidade: "UN" },
+      { descricao: "PEITO DE FRANGO", unidade: "CX" },
     { descricao: "PEITO DE PERU", unidade: "UN" },
     { descricao: "PONTAS DE CALABRESA", unidade: "KG" },
     { descricao: "PRESUNTO", unidade: "UND" },
@@ -158,4 +159,5 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
