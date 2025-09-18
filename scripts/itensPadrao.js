@@ -16,6 +16,7 @@ mercearia: [
     { descricao: "CALDO DE GALINHA", unidade: "PCT" },
     { descricao: "CHAMPIGNON", unidade: "BLD" },
     { descricao: "CHOC. GRANULADO", unidade: "PCT" },
+    { descricao: "CREME CULINÁRIO", unidade: "CX" },
     { descricao: "ERVILHA", unidade: "UND" },
     { descricao: "FARINHA", unidade: "PCT" },
     { descricao: "FARINHA DE TRIGO SC 25 KG", unidade: "PCT" },
@@ -159,5 +160,6 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
