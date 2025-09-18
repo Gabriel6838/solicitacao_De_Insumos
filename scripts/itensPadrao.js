@@ -47,6 +47,7 @@ mercearia: [
     { descricao: "BISTECA", unidade: "KG" },
     { descricao: "CARNE C/ OSSO", unidade: "KG" },
     { descricao: "CARNE NA ROLA", unidade: "KG" },
+      { descricao: "CARNE MOÍDA", unidade: "KG" },
     { descricao: "CARNE P/ BIFE", unidade: "KG" },
     { descricao: "CARNE P/ MARIA ISABEL", unidade: "KG" },
     { descricao: "CHEDDAR 1,01KG", unidade: "UND" },
@@ -56,7 +57,7 @@ mercearia: [
     { descricao: "CREAM CHEESE", unidade: "CX" },
     { descricao: "FRANGO INTEIRO", unidade: "UND" },
     { descricao: "LOMBO CANADENSE", unidade: "UN" },
-      { descricao: "PEITO DE FRANGO", unidade: "CX" },
+    { descricao: "PEITO DE FRANGO", unidade: "CX" },
     { descricao: "PEITO DE PERU", unidade: "UN" },
     { descricao: "PONTAS DE CALABRESA", unidade: "KG" },
     { descricao: "PRESUNTO", unidade: "UND" },
@@ -160,6 +161,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
