@@ -12,6 +12,7 @@ mercearia: [
     { descricao: "BISNAGA CHOC/LEITE 1,01KG", unidade: "CX" },
     { descricao: "BISNAGA DE DOCE DE LEITE 1,01KG", unidade: "UND" },
     { descricao: "BOMBOM GAROTO", unidade: "PCT" },
+    { descricao: "CANELA", unidade: "PCT" },
     { descricao: "CAFE", unidade: "PCT" },
     { descricao: "CALDO DE GALINHA", unidade: "PCT" },
     { descricao: "CHAMPIGNON", unidade: "BLD" },
@@ -23,6 +24,7 @@ mercearia: [
     { descricao: "FEIJÃO BRANCO", unidade: "KG" },
     { descricao: "FEIJÃO CARIOCA", unidade: "KG" },
     { descricao: "FEIJÃO PRETO", unidade: "KG" },
+    { descricao: "FERMENTO", unidade: "UN" },
     { descricao: "FOSFORO", unidade: "UND" },
     { descricao: "FUBA DE MILHO", unidade: "FRD" },
     { descricao: "LEITE CONDENSADO 395G", unidade: "UND" },
@@ -36,9 +38,9 @@ mercearia: [
     { descricao: "OLEO SOJA 900ML", unidade: "UND" },
     { descricao: "OREGANO", unidade: "PCT" },
     { descricao: "OVOS", unidade: "CRT" },
-    { descricao: "PIMENTA BIQUINHO BALDE", unidade: "UND" },
+    { descricao: "PIMENTA BIQUINHO", unidade: "BLD" },
     { descricao: "PIMENTA TABASCO 60ML", unidade: "UND" },
-    { descricao: "SAL 1KG", unidade: "FRD" },
+    { descricao: "SAL", unidade: "FRD" },
     { descricao: "TOMATE SECO BALDE", unidade: "UND" },
     { descricao: "VINAGRE BALSAMICO 500ML", unidade: "UND" }
 ],
@@ -47,10 +49,10 @@ mercearia: [
     { descricao: "BISTECA", unidade: "KG" },
     { descricao: "CARNE C/ OSSO", unidade: "KG" },
     { descricao: "CARNE NA ROLA", unidade: "KG" },
-      { descricao: "CARNE MOÍDA", unidade: "KG" },
+    { descricao: "CARNE MOÍDA", unidade: "KG" },
     { descricao: "CARNE P/ BIFE", unidade: "KG" },
     { descricao: "CARNE P/ MARIA ISABEL", unidade: "KG" },
-    { descricao: "CHEDDAR 1,01KG", unidade: "UND" },
+    { descricao: "CHEDDAR", unidade: "CX" },
     { descricao: "COXA E SOBRE COXA", unidade: "KG" },
     { descricao: "COSTELA BOVINA", unidade: "KG" },
     { descricao: "COSTELA SUÍNA", unidade: "KG" },
@@ -131,7 +133,7 @@ mercearia: [
   ],
   diversos: [
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
-    { descricao: "COPO DESCARTAVEL 180ML", unidade: "PCT" },
+    { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
     { descricao: "GUARDANAPO", unidade: "CX" },
     { descricao: "LACRE P/ PIZZA", unidade: "UN" },
     { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
@@ -139,6 +141,7 @@ mercearia: [
     { descricao: "SACO 1KG", unidade: "PCT" },
     { descricao: "SACO 2KG", unidade: "PCT" },
     { descricao: "SACO P/ TALHER", unidade: "PCT" },
+    { descricao: "SACO P/ MASSA", unidade: "UND" },
     { descricao: "SACHE KETCHUP", unidade: "CX" },
     { descricao: "SACHE MAIONESE", unidade: "CX" },
     { descricao: "SACHE MOSTARDA", unidade: "CX" }
@@ -161,6 +164,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
