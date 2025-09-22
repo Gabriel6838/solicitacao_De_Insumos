@@ -140,11 +140,13 @@ mercearia: [
     { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
     { descricao: "SACO 1KG", unidade: "PCT" },
     { descricao: "SACO 2KG", unidade: "PCT" },
+    { descricao: "SACO ADESIVO", unidade: "PCT" },
     { descricao: "SACO P/ TALHER", unidade: "PCT" },
     { descricao: "SACO P/ MASSA", unidade: "UND" },
     { descricao: "SACHE KETCHUP", unidade: "CX" },
     { descricao: "SACHE MAIONESE", unidade: "CX" },
-    { descricao: "SACHE MOSTARDA", unidade: "CX" }
+    { descricao: "SACHE MOSTARDA", unidade: "CX" },
+    { descricao: "TAÇAS", unidade: "CX" }
   ],
   sobras: [
     { descricao: "QUEIJO MUSSARELA G", unidade: "UN" },
@@ -164,6 +166,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
