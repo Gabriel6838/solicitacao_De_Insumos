@@ -35,7 +35,7 @@ mercearia: [
     { descricao: "MOLHO BARBECUE", unidade: "UND" },
     { descricao: "MOLHO P/ PIZZA", unidade: "CX" },
     { descricao: "MOLHO SHOYU", unidade: "UND" },
-    { descricao: "OLEO SOJA 900ML", unidade: "UND" },
+    { descricao: "OLEO SOJA 900ML", unidade: "FRD" },
     { descricao: "OREGANO", unidade: "PCT" },
     { descricao: "OVOS", unidade: "CRT" },
     { descricao: "PIMENTA BIQUINHO", unidade: "BLD" },
@@ -168,6 +168,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
