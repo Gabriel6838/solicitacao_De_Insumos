@@ -135,9 +135,11 @@ mercearia: [
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
     { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
     { descricao: "GUARDANAPO", unidade: "CX" },
+    { descricao: "JARRA", unidade: "UND" },
     { descricao: "LACRE P/ PIZZA", unidade: "UN" },
     { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
     { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
+    { descricao: "PLASTICO FILME", unidade: "UND" },
     { descricao: "SACO 1KG", unidade: "PCT" },
     { descricao: "SACO 2KG", unidade: "PCT" },
     { descricao: "SACO ADESIVO", unidade: "PCT" },
@@ -166,6 +168,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
