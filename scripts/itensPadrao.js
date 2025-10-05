@@ -3,7 +3,6 @@ mercearia: [
     { descricao: "ACUCAR CRISTAL", unidade: "FRD" },
     { descricao: "ACUCAR MASCAVO", unidade: "FRD" },
     { descricao: "AMACIANTE DE CARNE 1,1KG", unidade: "PCT" },
-    { descricao: "ARROZ 5KG", unidade: "PCT" },
     { descricao: "AZEITE DE OLIVA 500ML", unidade: "UND" },
     { descricao: "AZEITE EXTRA VIRGEM 5L", unidade: "UND" },
     { descricao: "AZEITONA PRETA", unidade: "BLD" },
@@ -19,11 +18,7 @@ mercearia: [
     { descricao: "CHOC. GRANULADO", unidade: "PCT" },
     { descricao: "CREME CULINÁRIO", unidade: "CX" },
     { descricao: "ERVILHA", unidade: "UND" },
-    { descricao: "FARINHA", unidade: "PCT" },
     { descricao: "FARINHA DE TRIGO SC 25 KG", unidade: "PCT" },
-    { descricao: "FEIJÃO BRANCO", unidade: "KG" },
-    { descricao: "FEIJÃO CARIOCA", unidade: "KG" },
-    { descricao: "FEIJÃO PRETO", unidade: "KG" },
     { descricao: "FERMENTO", unidade: "UN" },
     { descricao: "FOSFORO", unidade: "UND" },
     { descricao: "FUBA DE MILHO", unidade: "FRD" },
@@ -41,23 +36,13 @@ mercearia: [
     { descricao: "PIMENTA BIQUINHO", unidade: "BLD" },
     { descricao: "PIMENTA TABASCO 60ML", unidade: "UND" },
     { descricao: "SAL", unidade: "FRD" },
-    { descricao: "TOMATE SECO BALDE", unidade: "UND" },
+    { descricao: "TOMATE SECO", unidade: "BLD" },
     { descricao: "VINAGRE BALSAMICO 500ML", unidade: "UND" }
 ],
   frios: [
     { descricao: "BACON CUBOS", unidade: "KG" },
-    { descricao: "BISTECA", unidade: "KG" },
-    { descricao: "CARNE C/ OSSO", unidade: "KG" },
-    { descricao: "CARNE NA ROLA", unidade: "KG" },
-    { descricao: "CARNE MOÍDA", unidade: "KG" },
-    { descricao: "CARNE P/ BIFE", unidade: "KG" },
-    { descricao: "CARNE P/ MARIA ISABEL", unidade: "KG" },
     { descricao: "CHEDDAR", unidade: "CX" },
-    { descricao: "COXA E SOBRE COXA", unidade: "KG" },
-    { descricao: "COSTELA BOVINA", unidade: "KG" },
-    { descricao: "COSTELA SUÍNA", unidade: "KG" },
     { descricao: "CREAM CHEESE", unidade: "CX" },
-    { descricao: "FRANGO INTEIRO", unidade: "UND" },
     { descricao: "LOMBO CANADENSE", unidade: "UN" },
     { descricao: "PEITO DE FRANGO", unidade: "CX" },
     { descricao: "PEITO DE PERU", unidade: "UN" },
@@ -69,7 +54,7 @@ mercearia: [
     { descricao: "QUEIJO MUSSARELA", unidade: "BARRA" },
     { descricao: "QUEIJO PARMESÃO", unidade: "BARRA" },
     { descricao: "QUEIJO PROVOLONE", unidade: "BARRA" },
-    { descricao: "REQUEIJÃO CATUPIRY 1,5KG", unidade: "CX" }
+    { descricao: "REQUEIJÃO CREMOSO", unidade: "CX" }
 ],
   bebidas: [
     { descricao: "ÁGUA DE COCO 300ML", unidade: "FRD" },
@@ -168,6 +153,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
