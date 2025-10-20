@@ -117,8 +117,11 @@ mercearia: [
     { descricao: "ST PIETRO CAIXA P", unidade: "UND" }
   ],
   diversos: [
+    { descricao: "BORRIFADOR", unidade: "UND" },
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
+    { descricao: "CADEADO", unidade: "UND" },
     { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
+    { descricao: "FACA", unidade: "UND" },
     { descricao: "GUARDANAPO", unidade: "CX" },
     { descricao: "JARRA", unidade: "UND" },
     { descricao: "LACRE P/ PIZZA", unidade: "UN" },
@@ -153,6 +156,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
