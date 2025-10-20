@@ -45,9 +45,9 @@ mercearia: [
     { descricao: "CREAM CHEESE", unidade: "CX" },
     { descricao: "LOMBO CANADENSE", unidade: "UN" },
     { descricao: "PEITO DE FRANGO", unidade: "CX" },
-    { descricao: "PEITO DE PERU", unidade: "UN" },
+    { descricao: "PEITO DE PERU", unidade: "BARRA" },
     { descricao: "PONTAS DE CALABRESA", unidade: "KG" },
-    { descricao: "PRESUNTO", unidade: "UND" },
+    { descricao: "PRESUNTO", unidade: "BARRA" },
     { descricao: "PRESUNTO PHARMA 100G", unidade: "PCT" },
     { descricao: "QUEIJO COALHO", unidade: "BARRA" },
     { descricao: "QUEIJO DO REINO", unidade: "BARRA" },
@@ -157,6 +157,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
