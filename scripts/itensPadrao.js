@@ -78,6 +78,7 @@ mercearia: [
     { descricao: "GUARANÁ JESUS LATA 350ML", unidade: "FRD" },
     { descricao: "GUARANÁ LATA 350ML", unidade: "FRD" },
     { descricao: "GUARANÁ LATA ZERO 350ML", unidade: "FRD" },
+    { descricao: "HENEKEN", unidade: "FRD" },
     { descricao: "H2O LIMÃO FRD", unidade: "FRD" },
     { descricao: "H2O LIMONETO", unidade: "FRD" },
     { descricao: "SCHEWEPPS LATA 350ML", unidade: "FRD" },
@@ -157,6 +158,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
