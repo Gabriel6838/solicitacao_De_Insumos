@@ -48,6 +48,7 @@ mercearia: [
     { descricao: "PEITO DE PERU", unidade: "UN" },
     { descricao: "PONTAS DE CALABRESA", unidade: "KG" },
     { descricao: "PRESUNTO", unidade: "UND" },
+    { descricao: "PRESUNTO PHARMA 100G", unidade: "PCT" },
     { descricao: "QUEIJO COALHO", unidade: "BARRA" },
     { descricao: "QUEIJO DO REINO", unidade: "BARRA" },
     { descricao: "QUEIJO GORGONZOLA", unidade: "BARRA" },
@@ -156,6 +157,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
