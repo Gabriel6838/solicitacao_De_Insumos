@@ -111,11 +111,11 @@ mercearia: [
     { descricao: "FORNO CAIXA G", unidade: "UND" },
     { descricao: "FORNO CAIXA M", unidade: "UND" },
     { descricao: "FORNO CAIXA P", unidade: "UND" },
-    { descricao: "CAIXA PIZZA PP", unidade: "UND" },
+    { descricao: "FORNO CAIXA PP", unidade: "UND" },
     { descricao: "DELICIA PAULISTA", unidade: "PCT" },
-    { descricao: "ST PIETRO CAIXA G", unidade: "UND" },
-    { descricao: "ST PIETRO CAIXA M", unidade: "UND" },
-    { descricao: "ST PIETRO CAIXA P", unidade: "UND" }
+    { descricao: "PIETRO CAIXA G", unidade: "UND" },
+    { descricao: "PIETRO CAIXA M", unidade: "UND" },
+    { descricao: "PIETRO CAIXA P", unidade: "UND" }
   ],
   diversos: [
     { descricao: "BORRIFADOR", unidade: "UND" },
@@ -157,6 +157,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
