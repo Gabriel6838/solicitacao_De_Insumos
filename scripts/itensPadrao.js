@@ -1,8 +1,7 @@
 export const itensPadrao = {
 mercearia: [
-    { descricao: "ACUCAR CRISTAL", unidade: "FRD" },
-    { descricao: "ACUCAR MASCAVO", unidade: "FRD" },
-    { descricao: "AMACIANTE DE CARNE 1,1KG", unidade: "PCT" },
+    { descricao: "AÇUCAR CRISTAL", unidade: "FRD" },
+    { descricao: "AÇUCAR MASCAVO", unidade: "FRD" },
     { descricao: "AZEITE DE OLIVA 500ML", unidade: "UND" },
     { descricao: "AZEITE EXTRA VIRGEM 5L", unidade: "UND" },
     { descricao: "AZEITONA PRETA", unidade: "BLD" },
@@ -10,18 +9,18 @@ mercearia: [
     { descricao: "BISNAGA CHOC/BRANCO 1,01KG", unidade: "CX" },
     { descricao: "BISNAGA CHOC/LEITE 1,01KG", unidade: "CX" },
     { descricao: "BISNAGA DE DOCE DE LEITE 1,01KG", unidade: "UND" },
-    { descricao: "BOMBOM GAROTO", unidade: "PCT" },
     { descricao: "CANELA", unidade: "PCT" },
     { descricao: "CAFE", unidade: "PCT" },
-    { descricao: "CALDO DE GALINHA", unidade: "PCT" },
     { descricao: "CHAMPIGNON", unidade: "BLD" },
     { descricao: "CHOC. GRANULADO", unidade: "PCT" },
+    { descricao: "DETERGENTE 5L", unidade: "UND" },
     { descricao: "CREME CULINÁRIO", unidade: "CX" },
     { descricao: "ERVILHA", unidade: "UND" },
     { descricao: "FARINHA DE TRIGO SC 25 KG", unidade: "PCT" },
     { descricao: "FERMENTO", unidade: "UN" },
     { descricao: "FOSFORO", unidade: "UND" },
     { descricao: "FUBA DE MILHO", unidade: "FRD" },
+    { descricao: "ISQUEIRO", unidade: "UND" },
     { descricao: "LEITE CONDENSADO 395G", unidade: "UND" },
     { descricao: "LEITE LIQUIDO 1L", unidade: "UND" },
     { descricao: "MARGARINA", unidade: "BLD" },
@@ -36,6 +35,7 @@ mercearia: [
     { descricao: "PIMENTA BIQUINHO", unidade: "BLD" },
     { descricao: "PIMENTA TABASCO 60ML", unidade: "UND" },
     { descricao: "SAL", unidade: "FRD" },
+    { descricao: "SONHO DE VALSA", unidade: "PCT" },
     { descricao: "TOMATE SECO", unidade: "BLD" },
     { descricao: "VINAGRE BALSAMICO 500ML", unidade: "UND" }
 ],
@@ -44,7 +44,6 @@ mercearia: [
     { descricao: "CHEDDAR", unidade: "CX" },
     { descricao: "CREAM CHEESE", unidade: "CX" },
     { descricao: "LOMBO CANADENSE", unidade: "UN" },
-    { descricao: "PEITO DE FRANGO", unidade: "CX" },
     { descricao: "PEITO DE PERU", unidade: "BARRA" },
     { descricao: "PONTAS DE CALABRESA", unidade: "KG" },
     { descricao: "PRESUNTO", unidade: "BARRA" },
@@ -94,7 +93,6 @@ mercearia: [
     { descricao: "CEBOLA BRANCA", unidade: "KG" },
     { descricao: "CEBOLA ROXA", unidade: "KG" },
     { descricao: "CEBOLINHA", unidade: "UND" },
-    { descricao: "CHEIRO VERDE", unidade: "UND" },
     { descricao: "COENTRO", unidade: "UND" },
     { descricao: "LARANJA PERA", unidade: "KG" },
     { descricao: "LIMAO", unidade: "KG" },
@@ -122,6 +120,7 @@ mercearia: [
     { descricao: "BORRIFADOR", unidade: "UND" },
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
     { descricao: "CADEADO", unidade: "UND" },
+    { descricao: "CANETA BIC", unidade: "UND" },
     { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
     { descricao: "FACA", unidade: "UND" },
     { descricao: "GUARDANAPO", unidade: "CX" },
@@ -158,6 +157,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
