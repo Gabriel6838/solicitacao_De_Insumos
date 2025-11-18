@@ -85,16 +85,13 @@ mercearia: [
   ],
   hortifruti: [
     { descricao: "ABACAXI", unidade: "KG" },
-    { descricao: "ACAFRAO", unidade: "KG" },
     { descricao: "ALHO", unidade: "KG" },
     { descricao: "ALHO PORO", unidade: "KG" },
-    { descricao: "BANANA PRATA", unidade: "KG" },
+    { descricao: "BANANA", unidade: "KG" },
     { descricao: "BERINJELA", unidade: "KG" },
     { descricao: "CEBOLA BRANCA", unidade: "KG" },
     { descricao: "CEBOLA ROXA", unidade: "KG" },
     { descricao: "CEBOLINHA", unidade: "UND" },
-    { descricao: "COENTRO", unidade: "UND" },
-    { descricao: "LARANJA PERA", unidade: "KG" },
     { descricao: "LIMAO", unidade: "KG" },
     { descricao: "MACA", unidade: "KG" },
     { descricao: "MACAXEIRA", unidade: "KG" },
@@ -104,7 +101,7 @@ mercearia: [
     { descricao: "RUCULA", unidade: "UND" },
     { descricao: "SALSINHA", unidade: "UND" },
     { descricao: "TOMATE", unidade: "KG" },
-    { descricao: "TOMATE CEREJA BANDEJA", unidade: "UND" }
+    { descricao: "TOMATE CEREJA", unidade: "BAND" }
   ],
   embalagem: [
     { descricao: "FORNO CAIXA G", unidade: "UND" },
@@ -114,26 +111,54 @@ mercearia: [
     { descricao: "DELICIA PAULISTA", unidade: "PCT" },
     { descricao: "PIETRO CAIXA G", unidade: "UND" },
     { descricao: "PIETRO CAIXA M", unidade: "UND" },
-    { descricao: "PIETRO CAIXA P", unidade: "UND" }
+    { descricao: "PIETRO CAIXA P", unidade: "UND" },
+    { descricao: "MY PIZZA CAIXA G", unidade: "UND" },
+    { descricao: "MY PIZZA CAIXA M", unidade: "UND" },
+    { descricao: "MY PIZZA CAIXA P", unidade: "UND" }
   ],
   diversos: [
-    { descricao: "BORRIFADOR", unidade: "UND" },
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
+    { descricao: "BORRIFADOR", unidade: "UND" },
     { descricao: "CADEADO", unidade: "UND" },
     { descricao: "CANETA BIC", unidade: "UND" },
     { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
     { descricao: "FACA", unidade: "UND" },
     { descricao: "GUARDANAPO", unidade: "CX" },
     { descricao: "JARRA", unidade: "UND" },
+    { descricao: "KIT DE TALHER", unidade: "PCT" },
     { descricao: "LACRE P/ PIZZA", unidade: "UN" },
+    { descricao: "LUVAS PRETAS", unidade: "CX" },
     { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
     { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
     { descricao: "PLASTICO FILME", unidade: "UND" },
-    { descricao: "SACO 1KG", unidade: "PCT" },
     { descricao: "SACO 2KG", unidade: "PCT" },
     { descricao: "SACO ADESIVO", unidade: "PCT" },
-    { descricao: "SACO P/ TALHER", unidade: "PCT" },
     { descricao: "SACO P/ MASSA", unidade: "UND" },
+    { descricao: "SACO P/ TALHER", unidade: "PCT" },
+    { descricao: "SACHE KETCHUP", unidade: "CX" },
+    { descricao: "SACHE MAIONESE", unidade: "CX" },
+    { descricao: "SACHE MOSTARDA", unidade: "CX" },
+    { descricao: "TAÇAS", unidade: "CX" }
+  ],
+    extras: [
+    { descricao: "BOBINA TÉRMICA", unidade: "CX" },
+    { descricao: "BORRIFADOR", unidade: "UND" },
+    { descricao: "CADEADO", unidade: "UND" },
+    { descricao: "CANETA BIC", unidade: "UND" },
+    { descricao: "COPO DESCARTAVEL", unidade: "PCT" },
+    { descricao: "FACA", unidade: "UND" },
+    { descricao: "GUARDANAPO", unidade: "CX" },
+    { descricao: "JARRA", unidade: "UND" },
+    { descricao: "KIT DE TALHER", unidade: "PCT" },
+    { descricao: "LACRE P/ PIZZA", unidade: "UN" },
+    { descricao: "LUVAS PRETAS", unidade: "CX" },
+    { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
+    { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
+    { descricao: "PLASTICO FILME", unidade: "UND" },
+    { descricao: "SACO 2KG", unidade: "PCT" },
+    { descricao: "SACO ADESIVO", unidade: "PCT" },
+    { descricao: "SACO P/ MASSA", unidade: "UND" },
+    { descricao: "SACO P/ TALHER", unidade: "PCT" },
     { descricao: "SACHE KETCHUP", unidade: "CX" },
     { descricao: "SACHE MAIONESE", unidade: "CX" },
     { descricao: "SACHE MOSTARDA", unidade: "CX" },
@@ -157,6 +182,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
