@@ -131,7 +131,7 @@ mercearia: [
     { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
     { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
     { descricao: "PLASTICO FILME", unidade: "UND" },
-    { descricao: "SACO 2KG", unidade: "PCT" },
+    { descricao: "SACO EM ROLO 2KG", unidade: "ROLO" },
     { descricao: "SACO ADESIVO", unidade: "PCT" },
     { descricao: "SACO P/ MASSA", unidade: "UND" },
     { descricao: "SACO P/ TALHER", unidade: "PCT" },
@@ -182,6 +182,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
