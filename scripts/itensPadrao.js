@@ -128,7 +128,6 @@ mercearia: [
     { descricao: "KIT DE TALHER", unidade: "PCT" },
     { descricao: "LACRE P/ PIZZA", unidade: "UN" },
     { descricao: "LUVAS PRETAS", unidade: "CX" },
-    { descricao: "MARMITEX/QUENTINHA", unidade: "UN" },
     { descricao: "MESINHAS P/ PIZZA", unidade: "PCT" },
     { descricao: "PLASTICO FILME", unidade: "UND" },
     { descricao: "SACO ADESIVO", unidade: "PCT" },
@@ -181,6 +180,7 @@ mercearia: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
