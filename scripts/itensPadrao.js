@@ -21,6 +21,7 @@ mercearia: [
     { descricao: "FERMENTO", unidade: "UN" },
     { descricao: "FOSFORO", unidade: "UND" },
     { descricao: "FUBA DE MILHO", unidade: "FRD" },
+    { descricao: "GELEIA DE FRUTAS VERMELHAS", unidade: "UND" },
     { descricao: "ISQUEIRO", unidade: "UND" },
     { descricao: "LEITE CONDENSADO 395G", unidade: "UND" },
     { descricao: "LEITE EM PÓ", unidade: "UND" },
@@ -125,6 +126,7 @@ bebidas: [
     { descricao: "ESFIRA CAIXA G", unidade: "UND" },
     { descricao: "ESFIRA CAIXA M", unidade: "UND" },
     { descricao: "ESFIRA CAIXA P", unidade: "UND" },
+    { descricao: "ESFIRA CAIXA PP", unidade: "UND" },
   ],
   diversos: [
     { descricao: "BOBINA TÉRMICA", unidade: "CX" },
@@ -190,6 +192,7 @@ bebidas: [
     { descricao: "PEPERONI M", unidade: "UN" }
   ]
 };
+
 
 
 
